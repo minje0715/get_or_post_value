@@ -14,7 +14,7 @@
     <h2>form-ex.jsp</h2>
 <%-- action: 데이터를 보낼 목적지 주소
      method: http request 방식. 안쓰면 get --%>
-    <form action="param-req1" method="get">
+    <form action="param-req1" method="Post">
         <input type="text" name="param1" placeholder="param1"><br/>
         <input type="text" name="param2" placeholder="param2"><br/>
         <input type="submit" value="전송">
